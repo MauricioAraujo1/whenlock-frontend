@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+<p align="center">
+  <a target="blank"><img src="https://github.com/user-attachments/assets/f5f529f3-ebfc-4649-8dc6-69e507268631" width="900" alt="Dash" /></a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-Currently, two official plugins are available:
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<p align="center" dir="auto">⚔Bem-Vindo ao Whenlock-frontend⚔</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>💻 Descrição do Projeto</h2>
 
-## Expanding the ESLint configuration
+Nesta aplicação, teremos um sistema de cadastro de usuários, edição e exclusão, assim como detalhes de informações do usuário criado. Também a pessoa pode criar uma conta, fazer login e recuperar a senha por email caso tenha esquecido.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2>🛠 Tecnologias</h2>
 
-- Configure the top-level `parserOptions` property like this:
+As seguintes ferramentas e libs foram usadas na construção do projeto:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [ ] [TypeScript]
+- [ ] [Firebase]
+- [ ] [React]
+- [ ] [Style Components]
+- [ ] [Vite]
+- [ ] [MUI Material]
+
+<h2>🚀 Como executar o projeto</h2>
+
+<span class="pl-c"><span class="pl-c">#</span> Clone este repositório</span>
+
+```
+https://github.com/MauricioAraujo1/whenlock-frontend.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<h2>🧭 Instalação</h2>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<span class="pl-c"><span class="pl-c">#</span> Acesse a pasta do projeto no terminal/cmd e execute os seguintes comandos:</span>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+$ cd whenlock-frontend
+$ code .
+$ npm i
+```
+
+<h2>Rodando a aplicação de dashboard</h2>
+
+```bash
+# iniciar a aplicação
+$ npm run dev
+```
+
+<h2>🤝 Suporte</h2> 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MauricioAraujo1/whenlock-frontend/issues).
