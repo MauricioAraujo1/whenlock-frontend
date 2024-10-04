@@ -73,3 +73,25 @@ $ npm run dev
 
 <h2>🤝 Suporte</h2> 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MauricioAraujo1/whenlock-frontend/issues).
+
+---
+
+## 👨‍💻 Autor
+
+ <br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/MauricioAraujo1">
+        <img src="https://github.com/MauricioAraujo1.png" width="100px;" height="100px" alt="Foto do Mauricio no GitHub"/><br>
+        <sub>
+          <b>MAURICIO ARAUJO</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+</table>
+<hr>
+
+* LinkedIn: [@mauricioarj1](https://linkedin.com/in/mauricioarj1)
