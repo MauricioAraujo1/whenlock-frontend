@@ -16,7 +16,7 @@ import {
   ButtonWrapper, 
   Button 
 } from "./styles";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft, FaAngleRight, FaArrowLeft } from "react-icons/fa"; // Adicionado FaArrowLeft
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faIdBadge, faUser, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
@@ -130,7 +130,15 @@ export function EditUser() {
       </Icon>
 
       <div style={{ padding: '20px', width: '100%' }}>
-        <Title>Editar Usuário</Title>
+        <Title>
+        <Button 
+            style={{ padding: '10px' ,marginLeft: '10px' }} 
+            onClick={() => navigate('/user')}
+          >
+            <FaArrowLeft style={{backgroundColor: 'black'}} />
+          </Button>
+          Editar Usuário
+        </Title>
 
         <FormWrapper>
           <div style={{ display: 'flex', alignItems: 'center' }}>

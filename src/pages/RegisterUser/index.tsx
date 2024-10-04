@@ -14,7 +14,7 @@ import {
   ButtonWrapper, 
   Button 
 } from "./styles";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft, FaAngleRight, FaArrowLeft } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faIdBadge, faUser, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import logoBoxImg from '../../assets/logo-navmenu.png';
@@ -129,7 +129,14 @@ export function RegisterUser({ refreshUsers }: RegisterUserProps) {
       </Icon>
 
       <div style={{ padding: '20px', width: '100%' }}>
-        <Title>Cadastro de Usuário</Title>
+        <Title>
+        <Button 
+            style={{ padding: '10px' ,marginLeft: '10px' }} 
+            onClick={() => navigate('/user')}
+          >
+            <FaArrowLeft style={{backgroundColor: 'black'}} />
+          </Button>
+            Cadastro de Usuário</Title>
 
         {/* Formulário de Cadastro */}
         <FormWrapper>

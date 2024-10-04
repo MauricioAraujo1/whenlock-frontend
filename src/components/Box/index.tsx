@@ -34,6 +34,10 @@ export function Box() {
     navigate('/recovery'); // Redireciona para a tela de recuperação de senha
   };
 
+  const handleSignUp = () => {
+    navigate('/signUp'); // Redireciona para a tela de recuperação de senha
+  };
+
   return (
     <BoxContainer>
       <BoxContent>
@@ -61,7 +65,8 @@ export function Box() {
           </PasswordField>
 
           <SubmitButton onClick={handleSignIn}>Entrar</SubmitButton>
-          <ForgotPassword onClick={handleForgotPassword}>Esqueci minha senha</ForgotPassword> {/* Atualizado para usar onClick */}
+          <ForgotPassword onClick={handleForgotPassword}>Esqueci minha senha</ForgotPassword>
+          <ForgotPassword onClick={handleSignUp}>Cadastre-se</ForgotPassword> {/* Atualizado para usar onClick */}
         </InputContainer>
       </BoxContent>
     </BoxContainer>

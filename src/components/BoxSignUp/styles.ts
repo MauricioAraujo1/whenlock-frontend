@@ -128,3 +128,24 @@ export const ForgotPassword = styled.a`
   }
   
 `;
+
+export const GoBack = styled.a`
+  font-family: 'Manrope', sans-serif;
+  color: #6F7D7D;
+  text-align: center;
+  margin-top: 35px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: none;   
+    box-shadow: none;     
+  }
+`;

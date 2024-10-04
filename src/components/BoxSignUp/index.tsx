@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { BoxContainer, BoxContent, SubTitle, Title, InputContainer, InputField, PasswordField, InputPassword, TogglePassword, SubmitButton, ForgotPassword } from "./styles";
+import { FaArrowLeft } from 'react-icons/fa';
+import { BoxContainer, BoxContent, SubTitle, Title, InputContainer, InputField, PasswordField, InputPassword, TogglePassword, SubmitButton, GoBack } from "./styles";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { auth } from '../../firebaseConnection'
 import { useNavigate } from 'react-router-dom';
@@ -33,6 +34,10 @@ export function BoxSignUp() {
         }
     })
   }
+
+  const handleGoBack = () => {
+    navigate('/'); 
+  };
 
   return (
     <BoxContainer>
@@ -72,7 +77,10 @@ export function BoxSignUp() {
           </PasswordField>
 
           <SubmitButton onClick={handleRegister}>Cadastrar</SubmitButton>
-          <ForgotPassword href="#">Esqueci minha senha</ForgotPassword>
+          <GoBack onClick={handleGoBack}>
+            <FaArrowLeft style={{ marginRight: '8px', paddingTop: '5px' }} /> 
+            Voltar para o login
+          </GoBack>
         </InputContainer>
       </BoxContent>
     </BoxContainer>
