@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a target="blank"><img src="https://github.com/user-attachments/assets/ed2fe9e8-350e-43b5-a7eb-57de1916c516" width="900" alt="Dash" /></a>
+  <a target="blank"><img src="https://github.com/user-attachments/assets/157068ab-70d4-4615-b543-3b5070a545ee" width="900" alt="Dash" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
