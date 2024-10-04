@@ -6,6 +6,11 @@
   <a target="blank"><img src="https://github.com/user-attachments/assets/157068ab-70d4-4615-b543-3b5070a545ee" width="900" alt="Dash" /></a>
 </p>
 
+<p align="center">
+  <a target="blank"><img src="https://github.com/user-attachments/assets/cd30986a-b5c9-40fb-a07a-8dc8e22e86ac" width="900" alt="Dash" /></a>
+</p>
+
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
