@@ -1,5 +1,5 @@
 <p align="center">
-  <a target="blank"><img src="https://github.com/user-attachments/assets/f5f529f3-ebfc-4649-8dc6-69e507268631" width="900" alt="Dash" /></a>
+  <a target="blank"><img src="https://github.com/user-attachments/assets/ed2fe9e8-350e-43b5-a7eb-57de1916c516" width="900" alt="Dash" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
