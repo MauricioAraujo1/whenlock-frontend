@@ -2,6 +2,10 @@
   <a target="blank"><img src="https://github.com/user-attachments/assets/ed2fe9e8-350e-43b5-a7eb-57de1916c516" width="900" alt="Dash" /></a>
 </p>
 
+<p align="center">
+  <a target="blank"><img src="https://github.com/user-attachments/assets/ed2fe9e8-350e-43b5-a7eb-57de1916c516" width="900" alt="Dash" /></a>
+</p>
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
