@@ -195,7 +195,7 @@ export function EditUser() {
               </Button>
             ) : (
               <>
-                <Button style={{ backgroundColor: '#FF6347' }} onClick={() => navigate('/')}>Cancelar</Button>
+                <Button style={{ backgroundColor: '#FF6347' }} onClick={() => navigate('/user')}>Cancelar</Button>
                 <Button style={{ backgroundColor: '#0290A4' }} onClick={handleSave}>Salvar</Button>
               </>
             )}

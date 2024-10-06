@@ -188,7 +188,7 @@ export function RegisterUser({ refreshUsers }: RegisterUserProps) {
             </div>
 
             <ButtonWrapper>
-              <Button style={{ backgroundColor: '#FF6347' }}>Cancelar</Button>
+              <Button style={{ backgroundColor: '#FF6347' }} onClick={() => navigate('/user')}>Cancelar</Button>
               <Button type="submit" style={{ backgroundColor: '#0290A4' }}>Cadastrar</Button>
             </ButtonWrapper>
           </form>

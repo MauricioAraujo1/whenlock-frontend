@@ -50,7 +50,7 @@ export function Home() {
     try {
       await signOut(auth);
       console.log("Usuário deslogado com sucesso");
-      navigate("/signin"); // Redireciona para a página de Sign In após logout
+      navigate("/"); // Redireciona para a página de Sign In após logout
     } catch (error) {
       console.error("Erro ao deslogar:", error);
     }

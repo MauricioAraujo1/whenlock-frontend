@@ -22,7 +22,7 @@ export function Box() {
         console.log(value.user);
         setEmail('');
         setPassword('');
-        navigate('/'); // Redireciona para a página inicial após login
+        navigate('/Home'); // Redireciona para a página inicial após login
       })
       .catch((error) => {
         console.error("Erro ao fazer login:", error);

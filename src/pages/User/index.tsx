@@ -53,7 +53,7 @@ export function User() {
   };
 
   const handleHomeClick = () => {
-    navigate("/"); 
+    navigate("/Home"); 
   };
 
   const handleEditUser = (userId: string) => {

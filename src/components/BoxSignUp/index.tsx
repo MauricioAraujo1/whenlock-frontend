@@ -24,7 +24,7 @@ export function BoxSignUp() {
         console.log(value);
         setEmail('')
         setPassword('')
-        navigate('/signIn');
+        navigate('/');
     })
     .catch((error) => {
         if(error.code === 'auth/weak-password'){

@@ -28,8 +28,8 @@ export function Router() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/signIn" element={<SignIn />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/" element={<SignIn />} />
       <Route path="/signUp" element={<SignUp />} />
       <Route path="/recovery" element={<RecoveryPass />} />
       <Route path="/user" element={<User refreshUsers={refreshUsers} users={users} />} /> {/* Passando a lista de usuários para o User */}
